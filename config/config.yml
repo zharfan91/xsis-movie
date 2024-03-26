@@ -1,0 +1,16 @@
+app:
+  name: 'xsis-movie'
+  version: '1.0.0'
+
+http:
+  port: '8000'
+
+
+postgres:
+  pool_max: 2
+  DB_HOST: 'localhost'
+  DB_PORT: '5432'
+  DB_USER: 'postgres'
+  DB_NAME: 'movies'
+  DB_PASS: '123456789'
+  TIME_ZONE: 'Asia/Jakarta'
